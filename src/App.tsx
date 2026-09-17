@@ -6,9 +6,7 @@ import { arrData } from './data.tsx'
 
 export function App() {
 	let [selectedTrackId, setSelectedTrackId] = useState(null)
-
-
-
+	
 	if(arrData === null){
 		return <span>Loading...</span>
 	}
